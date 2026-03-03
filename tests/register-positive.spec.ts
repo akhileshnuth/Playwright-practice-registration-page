@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
 import { RegisterPage } from '../pages/RegisterPage';
 
-test.describe('Positive Suite - Complete Registration', () => {
+test.describe('Positive test - Complete Registration', () => {
 
   test('User should fill and submit registration form successfully', async ({ page }) => {
 

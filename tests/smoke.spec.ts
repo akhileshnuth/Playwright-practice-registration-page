@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { RegisterPage } from '../pages/RegisterPage';
 
-test.describe('Smoke Suite - Registration Page UI Validation', () => {
+test.describe('Smoke test - Registration Page UI Validation', () => {
 
   test('Validate Registration Page Structure Completely', async ({ page }) => {
 
